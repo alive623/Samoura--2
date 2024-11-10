@@ -1,9 +1,9 @@
 package personnages;
 
 public class Humain {
-	String nom;
-	int argent;
-	String boisson;
+	private String nom;
+	private int argent;
+	private String boisson;
 	
 	public Humain(String nom, int argent, String boisson) {
 		this.nom = nom;
