@@ -48,6 +48,7 @@ public class Yakuza extends Humain {
 	@Override
 	public void direBonjour() {
 		super.direBonjour();
+		parler("et J'ai " + getArgent() + " sous en poche.");
 		parler("Je suis fier d'appartenir au clan " + clan + " !");
 	}
 	
